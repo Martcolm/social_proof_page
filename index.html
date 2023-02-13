@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Product</title>
+    <style>
+      *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      :root{
+        --verified: hsl(333, 80%, 67%)
+        --box-background: hsl(300, 43%, 22%)
+        --white: hsl(0, 0%, 100%)
+        --span_back: hsl(300, 24%, 96%)
+      }
+    body{
+        max-width: 900px;
+        margin: 30px auto;
+    }
+    .review{
+        display: flex; 
+        justify-content: space-between;
+    }
+    
+    span {
+        display: block;
+        background-color: whitesmoke;
+        margin: 10px;
+        padding: 10px 40px 10px 10px;
+        border-radius: 5px;
+        font-size: 20px;
+    }
+    .a{
+        position: relative;
+    }
+    .one{
+        right: 80px;
+    }
+    .two{
+        right: 40px;
+    }
+    .detail{
+        width: 200px;
+    }
+    .detail h2{
+        
+        font-size:32px;
+        font-weight: 900px;
+        margin-bottom:15px;
+    }
+    .detail p {
+        font-size: 15px;
+     
+    }
+    .img{
+            border-radius: 100%;
+            height: 40px;
+        }
+        li{
+            list-style: none;
+            margin-left: 15px;
+        }
+        #one{
+            display: flex;
+            margin-top:70px
+
+
+        }
+        #ear{
+            display: block;
+            background-color: violet;
+            border-radius: 10px;
+            position: relative;
+            padding: 30px;
+            margin: 10px ;
+            text-align: justify;;
+        }
+        #era{
+            display: block;
+            background-color: violet;
+            border-radius: 10px;
+            position: relative;
+            top: 20px;
+            padding: 30px;
+            margin: 10px;
+            text-align: justify;  
+        }
+        #are{
+            display: block;
+            background-color: violet;
+            border-radius: 10px;
+            position: relative;
+            top: 35px;
+            padding: 40px;
+            margin: 10px;
+            text-align: justify;
+        
+        }
+        .fib{
+            display: flex;
+        }
+        .quote{
+           display: block;
+           margin: 20px 0 2px 0;
+        }
+        .green{
+            color: brown;
+        }
+        @media (max-width:700px) {
+        .review {flex-wrap: wrap;}
+        #one{flex-wrap: wrap;}
+      }
+      @media(min-width:700px) and (max-width:10007px) {}
+     
+
+      
+    
+    </style>
+</head>
+<body>
+    <section class="page">
+    <div class="review">
+        <div class="detail">
+            <h2>10,000+ of our users love our products.</h2>
+            <p>We only provide great products combined with excellent customer service.See what our satified customers are
+                  saying about our services.</p>
+        </div>
+        <div class="star">
+        <span class="a one">⭐⭐⭐⭐⭐ Rated 5 Stars in Reviews</span>
+        <span class="a two">⭐⭐⭐⭐⭐ Rated 5 Stars in Reviews</span>
+        <span class="a three">⭐⭐⭐⭐⭐ Rated 5 Stars in Reviews</span>
+        </div>
+        </div>
+    
+        <section id="one">
+            <span id="ear">
+                  <div class="fib">
+                  <img class="img" src="./images/IMG-20230207-WA0045.jpg" alt="">
+                  <ul>
+                  <li>Colton Smith</li>
+                  <li  class="green">Verified Buyer</li>
+                 </ul>
+              </div>
+              <div>
+                  <a class="quote">We needed the same printed design as 
+                      the one we oerded proir.Not only did
+                       they find the original order, but we 
+                       also received it in time. Excellent!
+                  </a>
+                </div>
+            </span>
+            <span id="era">
+                  <div class="fib">
+                  <img class="img" src="./images/IMG-20230207-WA0046.jpg" alt="">
+                  <ul>
+                  <li>Irene Roberts</li>
+                  <li  class="green">Verified Buyer</li>
+                 </ul>
+              </div>
+              <div>
+                  <a class="quote">Customer service is always excellent
+                     and very quick turn around. Completely
+                      delighted with the simplicity of the 
+                      purchase and the speed of delivery.
+                  </a>
+                </div>
+            </span>
+            <span id="are">
+                  <div class="fib">
+                  <img class="img" src="./images/IMG-20230207-WA0047.jpg" alt="">
+                  <ul>
+                  <li>Anne Wallace</li>
+                  <li  class="green">Verified Buyer</li>
+                 </ul>
+              </div>
+              <div>
+                  <a class="quote">
+                    Put an order with this company and can only praise them for the very high standard. Will definitely use them again and recommend them to everyone!.
+                  </a>
+                </div>
+            </span>
+        </section>
+        </section>
+</body>
+</html>
